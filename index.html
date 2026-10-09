@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelompok 1 - Desain UI/UX &amp; Pemrograman Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #85c3f9, #a9c7e7);
+    }
+    header { background: rgba(255,255,255,.35); backdrop-filter: blur(4px); text-align: center; padding: 24px 12px; color: #0b3b6b; }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 6px 0 0; }
+    main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+    .intro { background: rgba(255,255,255,.92); border: 1px solid #9cc7ee; border-radius: 6px; padding: 14px 18px; margin-bottom: 16px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .grid .card:last-child:nth-child(odd) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
+    .card { background: rgba(255,255,255,.95); border: 1px solid #9cc7ee; border-radius: 6px; padding: 14px; display: flex; gap: 14px; }
+    .card img { width: 130px; height: 160px; object-fit: cover; background: #ddd; border: 1px solid #bbb; flex-shrink: 0; }
+    .card h2 { margin: 0 0 8px; font-size: 1.1rem; }
+    .badge { font-size: .75rem; background: #dbeeff; border: 1px solid #9cc7ee; border-radius: 10px; padding: 2px 8px; margin-left: 6px; font-weight: normal; }
+    table { border-collapse: collapse; font-size: .85rem; }
+    td { padding: 2px 6px 2px 0; vertical-align: top; }
+    td:first-child { color: #555; width: 38%; }
+    a { color: #1a5fb4; }
+    footer { background: rgba(255,255,255,.35); backdrop-filter: blur(4px); color: #0b3b6b; text-align: center; padding: 14px; margin-top: 16px; font-size: .9rem; }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .grid .card:last-child:nth-child(odd) { width: auto; }
+      .card { flex-direction: column; }
+      .card img { width: 100%; height: 220px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kelompok 8</h1>
+    <p>Desain UI/UX &amp; Pemrograman Web</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h3>Intro☆*: .｡. o(≧▽≦)o .｡.:*☆</h3>
+      <p>Haii Salam Kenal!!🙌</p>
+      <p>Kami Kelompok 8 dari mata kuliah Desain UI/UX &amp; Pemrograman Web. Scroll ke bawah buat kenalan sama kami berlima ya! ✨</p>
+    </section>
+
+    <section class="grid">
+
+      <!-- ANGGOTA 1 -->
+      <article class="card">
+        <img src="assets/img/WhatsApp Image 2026-10-06 at 14.16.21.jpeg" alt="Foto Anggota 1">
+        <div>
+          <h2><span class="badge">Anggota</span></h2>
+          <table>
+            <tr><td>Nama Lengkap</td><td>: Khezia Azzahra Putri</td></tr>
+            <tr><td>NIM</td><td>: 0110226074</td></tr>
+            <tr><td>Program Studi / Kelas / Jurusan</td><td>: Teknik Informatika / TI01 / Teknik Informatika</td></tr>
+            <tr><td>Tempat, Tanggal Lahir</td><td>: Jakarta, 20 Mei 2008</td></tr>
+            <tr><td>Hobi</td><td>: Mendengar musik</td></tr>
+            <tr><td>Instagram</td><td>: <a href="https://instagram.com/americanozzie" target="_blank">@americanozzie</a></td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- ANGGOTA 2 -->
+      <article class="card">
+        <img src="assets/img/WhatsApp Image 2026-10-06 at 16.08.58.jpeg" alt="Foto Anggota 2">
+        <div>
+          <h2><span class="badge">Anggota</span></h2>
+          <table>
+            <tr><td>Nama Lengkap</td><td>: Ghaizan Akhtar Fadlurrachman</td></tr>
+            <tr><td>NIM</td><td>: 0110226152</td></tr>
+            <tr><td>Program Studi / Kelas / Jurusan</td><td>: Teknik Informatika / TI01 / Teknik Informatika</td></tr>
+            <tr><td>Tempat, Tanggal Lahir</td><td>: Jakarta, 6 Februari 2007</td></tr>
+            <tr><td>Hobi</td><td>: Dengerin musik, olahraga, main game</td></tr>
+            <tr><td>Instagram</td><td>: <a href="https://instagram.com/ghaizanaf" target="_blank">@ghaizanaf</a></td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- ANGGOTA 3 -->
+      <article class="card">
+        <img src="assets/img/WhatsApp Image 2026-10-06 at 14.38.44.jpeg" alt="Foto Anggota 3">
+        <div>
+          <h2><span class="badge">Anggota</span></h2>
+          <table>
+            <tr><td>Nama Lengkap</td><td>: Indah Nurmala Sari</td></tr>
+            <tr><td>NIM</td><td>: 0110226043</td></tr>
+            <tr><td>Program Studi / Kelas / Jurusan</td><td>: Teknik Informatika / TI01 / Teknik Informatika</td></tr>
+            <tr><td>Tempat, Tanggal Lahir</td><td>: Depok, 20 April 2008</td></tr>
+            <tr><td>Hobi</td><td>: Berenang, dengerin musik</td></tr>
+            <tr><td>Instagram</td><td>: <a href="https://instagram.com/ndahnrmla" target="_blank">@ndahnrmla</a></td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- ANGGOTA 4 -->
+      <article class="card">
+        <img src="assets/img/WhatsApp Image 2026-10-06 at 16.52.10.jpeg" alt="Foto Anggota 4">
+        <div>
+          <h2><span class="badge">Anggota</span></h2>
+          <table>
+            <tr><td>Nama Lengkap</td><td>: Jordan Ramadhan</td></tr>
+            <tr><td>NIM</td><td>: 0110226184</td></tr>
+            <tr><td>Program Studi / Kelas / Jurusan</td><td>: Teknik Informatika / TI01 / Teknik Informatika</td></tr>
+            <tr><td>Tempat, Tanggal Lahir</td><td>: Depok, 05 Oktober 2007</td></tr>
+            <tr><td>Hobi</td><td>: Basket, badminton, lari, voli, renang,tennis meja</td></tr>
+            <tr><td>Instagram</td><td>: <a href="https://instagram.com/jrdn_rmdhn05" target="_blank">@jrdn_rmdhn05</a></td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- ANGGOTA 5 -->
+      <article class="card">
+        <img src="assets/img/WhatsApp Image 2026-10-06 at 14.13.28.jpeg" alt="Foto Anggota 5">
+        <div>
+          <h2><span class="badge">Anggota</span></h2>
+          <table>
+            <tr><td>Nama Lengkap</td><td>: Hilmi Farrel Firjatullah</td></tr>
+            <tr><td>NIM</td><td>: 0110226023</td></tr>
+            <tr><td>Program Studi / Kelas / Jurusan</td><td>: Teknik Informatika / TI01 / Teknik Informatika</td></tr>
+            <tr><td>Tempat, Tanggal Lahir</td><td>: Jakarta, 17 November 2006</td></tr>
+            <tr><td>Hobi</td><td>: Ngoding</td></tr>
+            <tr><td>Instagram</td><td>: <a href="https://instagram.com/hilmifarrelfirjatullah" target="_blank">@hilmifarrelfirjatullah</a></td></tr>
+          </table>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Kelompok 8 - Desain UI/UX &amp; Pemrograman Web</p>
+  </footer>
+
+</body>
+</html>
